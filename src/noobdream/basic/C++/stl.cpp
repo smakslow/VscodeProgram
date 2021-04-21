@@ -28,7 +28,6 @@ int main(){
       //在从到小的数列中
       //sort(f, f + n, cmp);
       sort(f, f + n, greater<int>());
-      
       for(int i = 0;i < n;i++){
           printf("%d ",f[i]);
       }
