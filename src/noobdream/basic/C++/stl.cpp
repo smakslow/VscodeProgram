@@ -25,7 +25,7 @@ int main(){
       printf("\n%d %d \n",a,b);
       printf("%d %d",f[a],f[b]);
 
-      //在从到小的数列中
+      //在从大到小的数列中
       //sort(f, f + n, cmp);
       sort(f, f + n, greater<int>());
       for(int i = 0;i < n;i++){
