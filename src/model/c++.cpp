@@ -1,31 +1,43 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-#include <time.h>
-#include <algorithm>
-#include <iostream>
-#include <queue>
-#include <stack>
-#include <vector>
-#include <string>
+// #include <stdio.h>
+// #include <string.h>
+// #include <math.h>
+// #include <stdlib.h>
+// #include <time.h>
+// #include <algorithm>
+// #include <iostream>
+// #include <queue>
+// #include <stack>
+// #include <vector>
+// #include <string>
+#include <bits/stdc++.h>
 using namespace std;
-int minimumXORSum(vector<int>& nums1, vector<int>& nums2) {
-    int ans = 1e9;
-    sort(nums2.begin(),nums2.end());
-    do{
-        int t = 0;
-        for(int i = 0; i < nums1.size();i++){
-            t += (nums1[i]^nums2[i]);
-        }
-        ans = min(ans,t);
-    }while(next_permutation(nums2.begin(),nums2.end()));
-return ans;
 
+template <class T>
+inline bool scan_d(T  &ret){
+    char c;
+    int sgn;
+    if(c = getchar,c == EOF) return 0; // EOF
+
+    while(c != '-' && (c < '0' || c > '9')) c = getchar;
+    sgn = (c == '-') ? -1 : 1;
+    ret = (c == '-') ? 0 : ( c - '0');
+    while(c = getchar,c >= '0' && c <= '9') ret = ret * 10 + ( c - '0');
+    ret *= sgn;
+    return 1;
 }
- int main() {
 
-cout << (0^2877579) << endl;
-     cout << 3  +2 << endl;
+inline void out(int x){
+    if(x > 9) out(x / 10);
+    putchar(x % 10 + '0');
+}
+typedef long long ll;
+ int main() {
+     int n;
+     ll sum = 0;
+     scan_d(n);
+     for(int i = 1;i <= n;i++){
+         sum += i;
+     }
+     out(sum);
      return 0;
  }
