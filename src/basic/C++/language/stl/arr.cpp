@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 char mpt[10][10];
 int main(){
     for (int i = 0; i <= 4; i++)

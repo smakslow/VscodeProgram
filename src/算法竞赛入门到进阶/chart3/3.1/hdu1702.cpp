@@ -1,6 +1,15 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+/*
+  queue<Type> q;
+  q.push(item)
+  q.front()
+  q.back()
+  q.size()
+  q.empty()
+  q.pop()
+*/
 
 int main(){
     int t, n ,temp;
