@@ -4,6 +4,7 @@ using namespace std;
 
 #define mytest
 #ifdef mytest
+#endif 
 /*
  1.构造测试数据
   1.1 加入测试代码
@@ -12,6 +13,7 @@ using namespace std;
 */
 int main(){
     freopen("test.in","r",stdin);
+    
     freopen("test.out","w",stdout);
     return 0;
 }

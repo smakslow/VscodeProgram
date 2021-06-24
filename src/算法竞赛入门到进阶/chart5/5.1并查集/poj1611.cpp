@@ -9,8 +9,7 @@ int find(int x)
 {
     if(pre[x]==x)
     return x;
-    else
-   return pre[x]=find(pre[x]);
+    else  return pre[x]=find(pre[x]);
 }
 void mix(int x, int y)
 {

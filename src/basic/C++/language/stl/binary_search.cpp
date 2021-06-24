@@ -19,7 +19,7 @@ int main(){
              cout << "find" << endl;
              return 0;
          }else if(a[mid] > x ){
-             mid--;
+             right = mid - 1;
          }else{
              left = mid + 1;
          }
