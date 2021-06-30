@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
+
 public class C{
     static PrintWriter out = new PrintWriter(System.out);
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -14,7 +15,6 @@ public class C{
 
     public static void main(String[] args) throws IOException {
         
-        out.println(3 + 2);
         out.flush();
         out.close();
     }

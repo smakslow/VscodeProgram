@@ -1,10 +1,11 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 int a;
-int main(){
+int main()
+{
     cin >> a;
-    int res = a * (a + 1) >> 1 ;
-    cout <<  res << endl;
+    int res = a * (a + 1) >> 1;
+    cout << res << endl;
     return 0;
 }

@@ -1,10 +1,12 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-int main(){
+int main()
+{
     int a, b;
-    while(scanf("%d%d",&a,&b) != EOF){
+    while (scanf("%d%d", &a, &b) != EOF)
+    {
         printf("%d \n", a + b);
     }
 
@@ -12,6 +14,6 @@ int main(){
     // {
     //   cout << a + b << endl;
     // }
-    
+
     return 0;
 }

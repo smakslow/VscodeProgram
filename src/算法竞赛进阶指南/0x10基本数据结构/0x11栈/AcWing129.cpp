@@ -1,15 +1,15 @@
-#include<iostream>
-#include<vector>
-#include<stack>
+#include <iostream>
+#include <vector>
+#include <stack>
 using namespace std;
 
-int n, cnt = 20;//输出前20个
+int n, cnt = 20; //输出前20个
 vector<int> state1;
 stack<int> state2;
 int state3 = 1;
 void dfs()
 {
-    if (!cnt)            //已输出前20个结束
+    if (!cnt) //已输出前20个结束
         return;
     if (state1.size() == n) //n个数已经进出栈
     {

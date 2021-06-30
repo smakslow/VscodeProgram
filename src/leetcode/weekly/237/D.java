@@ -20,7 +20,7 @@ public class D {
     public void washCard(int[] card) {
         Random random = new Random();
         for (int i = card.length - 1; i >= 0; i--) {
-            int cardIndex = random.nextInt(i + 1);// 得到[0, i]里面的数据
+            int cardIndex = random.nextInt(i + 1);
             card[cardIndex] ^= card[i];
             card[i] ^= card[cardIndex];
             card[cardIndex] ^= card[i];
