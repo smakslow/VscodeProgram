@@ -85,5 +85,9 @@
         "xstring": "cpp",
         "xtr1common": "cpp",
         "xtree": "cpp"
-    }
+    },
+    "java.project.sourcePaths": [
+        "src/leetcode/biweekly/56",
+        "src/leetcode/test"
+    ]
 }

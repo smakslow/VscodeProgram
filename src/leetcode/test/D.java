@@ -1,6 +1,7 @@
+import static java.lang.System.out;
 
 public class D{
     public static void main(String[] args){
-        System.out.println(a);
+        out.println(args);
     }
 }

@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class B{
+public class B {
     static PrintWriter out = new PrintWriter(System.out);
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer tokenizer = new StringTokenizer("");
@@ -31,7 +31,8 @@ public class B{
             String date = next();
             String id = next();
             double temper = nextDouble();
-            if (temper >= 38.0) cnt++;
+            if (temper >= 38.0)
+                cnt++;
             records[i] = new Record(date, id, temper);
         }
         Arrays.sort(records, new Comparator<Record>() {
@@ -50,7 +51,8 @@ public class B{
         sb.append(cnt).append("\n");
         for (int i = 0; i < n; i++) {
             if (records[i].temper >= 38.0)
-                sb.append(records[i].date).append(' ').append(records[i].id).append(' ').append(records[i].temper).append("\n");
+                sb.append(records[i].date).append(' ').append(records[i].id).append(' ').append(records[i].temper)
+                        .append("\n");
         }
         out.print(sb);
         out.flush();
