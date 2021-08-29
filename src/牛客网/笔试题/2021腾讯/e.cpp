@@ -55,7 +55,7 @@ SIZE
 #include <queue>
 using namespace std;
 
-int main() 
+int main()
 {
     int T, Q;
     cin >> T;

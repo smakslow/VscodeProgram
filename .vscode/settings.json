@@ -87,7 +87,8 @@
         "xtree": "cpp"
     },
     "java.project.sourcePaths": [
+        "src/leetcode/test",
         "src/leetcode/biweekly/56",
-        "src/leetcode/test"
+        "src/牛客网/笔试题/2021牛客二模"
     ]
 }

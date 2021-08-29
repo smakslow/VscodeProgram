@@ -1,5 +1,4 @@
 class Solution:
-
     SYMBOL_VALUES = {
         'I': 1,
         'V': 5,
