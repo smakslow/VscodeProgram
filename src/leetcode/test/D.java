@@ -1,7 +1,8 @@
-import static java.lang.System.out;
+import  java.lang.System;
 
 public class D{
     public static void main(String[] args){
-        out.println(args);
+        System.out.println(args);
+        System.out.println("_____________");
     }
 }

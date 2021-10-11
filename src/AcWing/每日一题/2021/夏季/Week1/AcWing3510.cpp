@@ -35,7 +35,7 @@ const int N = 1e6;
 int f[N],d[N];
 
 int n;
-itn main(){
+int main(){
     cin >> n;
     for(int i = 0;i < n;i++) cin >> f[i];
     for(int i = 0;i < n;i++) cin >> d[i];
